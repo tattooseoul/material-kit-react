@@ -45,7 +45,12 @@ export default function HeaderLinks(props) {
               className={classes.dropdownLink}
             >
               Documentation
-            </a>
+            </a>,
+
+          <Link to="/test" className={classes.dropdownLink}>    
+            Test
+          </Link>
+          
           ]}
         />
       </ListItem>
